@@ -13,11 +13,19 @@
     <link rel="stylesheet" href="src/css/responsivo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <link rel="stylesheet" href="pokedex.css">
+
     <title>Pokédex - MapaDev Week</title>
 </head>
-
-<body>
-    <main>
+ <header>
+    <picture class="topo">
+        <source media="(max-width: 750px)" srcset="./src/images/logo-pokedex-p.png">
+        
+        <img src="./src/images/logo-pokedex.png" class="animate__animated animate__zoomIn" alt="logo-pokedex">
+    </picture>
+ </header>
+<body>       
+    <main>  
         <div class="pokedex">
             <div class="cartoes-pokemon">
                 <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu">
