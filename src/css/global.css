@@ -6,7 +6,6 @@ html {
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #DADFE8;
     background-image: url('/src/images/bg2.jpg');
     background-size: cover;
 }
