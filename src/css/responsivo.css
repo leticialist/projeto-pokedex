@@ -3,10 +3,6 @@
         font-size: 12px;
     }
 
-    main {
-        margin-top: -70px;
-    }
-
     .pokedex {
         flex-direction: column;
         padding: 30px 0;
