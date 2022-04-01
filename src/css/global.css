@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-image: url('https://cdnb.artstation.com/p/assets/images/images/039/196/975/large/labuu-20210630xx.jpg?1625206703');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
