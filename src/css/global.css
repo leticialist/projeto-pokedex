@@ -7,14 +7,15 @@ body {
 }
 
 main {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
 
 picture img {
-    position: absolute;
     width: 400px;
     display: flex;
     right: 0;
